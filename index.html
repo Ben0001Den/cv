@@ -2,68 +2,67 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Benjamin's Personal Site</title>
+        <title>Benjamin Denverstone</title>
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
     </head>
     <body>
-        <table cellspacing="20">
-            <tr>
-                <td><img src="images/benjamin-circle.png" alt="Benjamin Profile Picture"></td>
-                <td>
-                    <h1>Benjamin Denverstone</h1>
-                    <p><em>Founder and Head Developer of <strong><a href="https://www.techhelpnow.org">Tech Help Now</a></strong>.</em></p>
-                    <p>I am a tech nerd and founder of Tech Help Now. I also work at <a href="https://www.movement5280.org">Movement 5280</a>.</p>
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <h3>Education</h3>
-        <ul>
-            <li>The Complete Web Development Bootcamp</li>
-            <li>Head First HTML and CSS</li>
-        </ul>
-        <hr>
-        <h3>Work Experience</h3>
-        <table cellspacing="10">
-            <thead>
-                <tr>
-                    <th>Dates</th>
-                    <th>Work</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2010-Present</td>
-                    <td>Volunteer/Work Program at Movement 5280</td>
-                </tr>
-                <tr>
-                    <td>2018-Present</td>
-                    <td>Founder of Tech Term Tuesdays/Tech Help Now</td>
-                </tr>
-                <tr>
-                    <td>2023</td>
-                    <td>Writer</td>
-                </tr>
-            </tbody>
-        </table>
-        <hr>
-        <h3>Skills</h3>
-        <table cellspacing="10">
-            <tr>
-                <td>Cooking</td>
-                <td>⭐️⭐️⭐️⭐️⭐️</td>
-            </tr>
-            <tr>
-                <td>Web Development</td>
-                <td>⭐️⭐️⭐️</td>
-            </tr>
-            <tr>
-                <td>Writing</td>
-                <td>⭐️⭐️</td>
-            </tr>
-        </table>
-        <hr>
-        <a href="hobbies.html">My Hobbies</a>
-        <a href="contact.html">Contact Me</a>
+        <div class="top-container">
+            <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+            <h1>I'm Benjamin.</h1>
+            <h2>a <span class="pro">pro</span>grammer.</h2>
+            <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+            <img src="images/mountain.png" alt="mountain-img">
+        </div>
+        <div class="middle-container">
+            <div class="profile">
+                <img src="images/benjamin-circle.png" alt="benjamin profile picture">
+                <h2>Hello.</h2>
+                <p class="intro">
+                    I am a tech nerd and founder of Tech Help Now. I also work at
+                    <a href="https://www.movement5280.org">Movement 5280</a>
+                </p>
+            </div>
+            <hr>
+            <div class="skills">
+              <h2>My Skills.</h2>
+              <div class="skill-row">
+                <img class="code-img" src="images/coding-modified.png" alt="code image">
+                <h3>Coding</h3>
+                <p>
+                    I started to learn how to code at the age of 28. Since then, I have written a website
+                    called Tech Help Now, and I'm learning how to write JavaScript and MERN. My ultimate
+                    goal is to become a Full-Stack Web Developer.
+                </p>
+              </div>
+              <div class="skill-row">
+                <img class="controller-img" src="images/controller-modified.png" alt="game controller">
+                <h3>Video Games</h3>
+                <p>
+                    I have been playing video games since I was four-years-old. I have played everything from
+                    Super Mario Bros. to The Legend of Zelda and even DOOM. I currently own a Nintendo Switch.
+                </p>
+              </div>
+            </div>
+            <hr>
+            <div class="contact-me">
+                <h2>Get In Touch</h2>
+                <h3>Want to Learn More?</h3>
+                <p class="contact-message">
+                    The button below will allow you to email me. The links in the footer are to my social media
+                    and Tech Help Now website.
+                </p>
+                <a class="btn" href="mailto:ben.denverstone@gmail.com">CONTACT ME</a>
+            </div>
+        </div>
+        <div class="bottom-container">
+            <a class="footer-link" href="https://www.facebook.com/benjamin.denverstone">Facebook</a>
+            <a class="footer-link" href="https://twitter.com/BenJDenverstone">Twitter</a>
+            <a class="footer-link" href="https://www.techhelpnow.org">Tech Help Now</a>
+            <p class="copyright">&copy; 2023 Benjamin Denverstone</p>
+        </div>
     </body>
 </html>
